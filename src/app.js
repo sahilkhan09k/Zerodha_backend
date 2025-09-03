@@ -14,7 +14,7 @@ app.use(express.urlencoded({
 }));
 
 app.use(cors({
-    origin: ['https://zerodha-frontend-phi.vercel.app/', 'https://zerodha-dashboard-gilt.vercel.app/'],
+    origin: ['https://zerodha-frontend-phi.vercel.app', 'https://zerodha-dashboard-gilt.vercel.app'],
     credentials: true
 }))
 
